@@ -141,6 +141,7 @@ h4, h5, h6 {
         li:hover {
             height: 36px;
             border-top: 2px solid var(--primary-color);
+            cursor: pointer;
         }
         li:hover > a {
             color: var(--primary-color);
