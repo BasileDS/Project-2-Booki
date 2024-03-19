@@ -1,4 +1,8 @@
 /********** Initialize main webpage elements ***********/
+html {
+	scroll-behavior: smooth;
+}
+
 * {
     font-family: 'Raleway', sans-serif, Helvetica;
     font-weight: 400;
@@ -134,6 +138,7 @@ h4, h5, h6 {
             height: 38px;
             display: flex;
             align-items: end;
+            scroll-behavior: smooth;
             a {
                 text-decoration: none;
             }
